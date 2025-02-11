@@ -105,7 +105,7 @@ function searchObjects() {
 }
 
 function logout() {
-    window.location.href = "untitled-1.html"
+    window.location.href = "index.html"
 }
 
 
