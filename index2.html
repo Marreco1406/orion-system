@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <ul>
+                <li><button onclick="logout()">Logout</button></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <h2>ORION Dashboard!</h2>
+            <p>Você está logado com sucesso.</p>
+
+            <h3>Registrar Objeto</h3>
+            <form id="objectForm">
+                <div class="input-group">
+                    <label for="name">Nome do Objeto</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="quantity">Quantidade</label>
+                    <input type="number" id="quantity" name="quantity" required>
+                </div>
+                <button type="submit">Registrar</button>
+            </form>
+
+            <h3>Objetos Registrados</h3>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Pesquisar...">
+                <button type="button" onclick="searchObjects()">Buscar</button>
+            </div>
+            <table id="objectsTable">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                        <th>Data e Hora de Registro</th>
+                        <th>Data e Hora de Término</th>
+                        <th>Código</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Linhas geradas dinamicamente -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="scripts2.js"></script>
+</body>
+</html>

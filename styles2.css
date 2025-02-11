@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 59, 253, 0.5) ;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(252, 252, 252);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #5a2d2d;
+    width: 100%;
+    max-width: 800px;
+}
+
+h2 {
+    text-align: left;
+    padding: 0px;
+    margin-top: 1.5vh;
+    margin-bottom: 5px;
+    color: #162788;
+    font-size: 50px;
+}
+
+.input-group {
+    margin-bottom: %;
+    margin: 1px;
+    display: contents;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #000000;
+}
+
+input {
+    width: calc(105% - 110px);
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 1.5ch;
+    font-size: 16px;
+    color: #000000;
+    box-sizing: border-box;
+    margin: 1px;
+}
+
+button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #000000;
+    border: none;
+    border-radius: 1.5ch;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 8px;
+    margin-bottom: 1px;
+}
+
+button:hover {
+    background-color: #0053ac;
+}
+
+table {
+    width: 100%;
+    border-collapse: 5px;
+    margin-top: 30px;
+    margin: center;
+}
+
+th, td {
+    padding: 1px;
+    border: px hidden #000000;
+    border-radius: 1.1ch;
+    margin-top: 1%;
+    margin-left: 2%;
+    background-color: #3f3f3f;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+th {
+    background-color: #383838;
+    font-size: 14px;
+    border-radius: 0.9ch;
+}
+
+.end-time {
+    color: #fdfcfc;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    width: calc(100% - 110);
+
+}
+
+
+.dashboard-container {
+    display: flex;
+    width: 75%;
+    height: fit-content;
+    align-items: top;
+    align-content: center;
+    align-tracks: center;
+    margin-top: 100px;
+    border-radius: 2ch;
+    padding: 20px;
+    background-color: #949494
+
+    
+
+};
+
+.sidebar {
+
+}
+
+.sidebar ul {
+    list-style-type:none ;
+    padding: 10px;
+
+};

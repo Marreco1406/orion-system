@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: hsla(244, 100%, 50%, 0.514);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: rgb(114, 114, 114);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: left;
+}
+
+h2 {
+    color: #0400ff8a;
+    margin-bottom: 24px;
+}
+
+.input-group {
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #030303;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000000;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007aff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.dashboard {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+
+}
+
+.dashboard-container h2 {
+    color: #1d1d1d;
+    margin-bottom: 24px;
+}
+
+.dashboard-container p {
+    color: #303030;
+
+}
